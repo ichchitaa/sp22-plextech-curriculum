@@ -63,6 +63,8 @@ Let's add on to the page we've created in the previous section. Fill out the bod
 
 *Hint: You will want to plan out how your page looks beforehand*
 
+*Hint 2: Flexboxes*
+
 ## Javascript
 So far we've created a webpage and filled it out with some basic information, but we can't really interact with it in any way. You maybe know that there is a `<button>` tag, but (as far as we know) there's no way for it to do anything. To add functionality to our page, we are able to use Javascript and the `<script>` tag to implement event listeners. 
 
@@ -220,3 +222,6 @@ Try to style the boxes as closely to the solution image as possible don't worry 
 
 ## Contributions
 Thank you to Brown University's CSCI 1320 for providing the spec and the starter code.
+## Big one
+ - Take some inspiration from last year for flexboxes
+ - This one should cover html, img, hyperlinks, html table, basic javascript (button clicking changing stuff), css styling (padding, margin, size), flexboxes
