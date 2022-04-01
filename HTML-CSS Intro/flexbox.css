@@ -89,3 +89,9 @@
     align-items: center;
     justify-content: center;
 }
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
