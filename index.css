@@ -118,19 +118,26 @@ p {
   transform: translateX(960px);
 }
 
-.blue7 {
+.bluee {
   flex: 1;
+}
+
+.blue7 {
   background-color: blue;
   height: 20px;
   width: 1300px;
-  transform: translate(300px, 40px);
+}
+
+.transparent {
+  background-color: transparent;
+  height: 20px;
+  width: 1300px;
 }
 
 .blue8 {
   width: 1300px;
   background-color: blue;
   height: 20px;
-  transform: translate(0px, 40px);
 }
 
 .orange1 {
