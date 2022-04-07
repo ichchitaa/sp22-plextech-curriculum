@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="description" content="Free Web tutorials for HTML and CSS">
-        <meta name="author" content="John Doe">
-        <title>A Meaningful Page Title</title>
+        <meta name="description" content="A delightful page from start to finish">
+        <meta name="author" content="Ichchitaa Sawrikar">
+        <title>Delightful title</title>
+        <link rel="icon" type="image/x-icon" href="/Users/ichchitaa/Downloads/favicon_io/favicon-16x16.png">
+        <link rel="stylesheet" href="flexbox.css">
+
+        <p class="container">click on the button</p>
+        <button onclick="dark()">Change to dark mode</button>
+        <script>
+            function dark() {
+                var el = document.getElementById("container");
+                el.style.backgroundColor="#0D1440"; 
+                var el2 = document.getElementById("body");
+                el2.style.backgroundColor="#0D1440"; 
+            }
+        </script>
+
+        <p class="container">click on the button</p>
+        <button onclick="light()">Change to light mode</button>
+        <script>
+            function light() {
+                var el = document.getElementById("container");
+                el.style.backgroundColor="#F3F1D8"; 
+                var el2 = document.getElementById("body");
+                el2.style.backgroundColor="#F3F1D8"; 
+            }
+        </script>
+
     </head>
     <body>
+    
+    <div id="container">
+      <div class="header">
+        Header
+      </div>
+
+      <div id="body">
+        <div class="aside">
+          Aside
+        </div>
+        <div class="content">
+          <div class="article">
+            Article
+          </div>
+          <div class="image-section">
+            <p>Image</p>
+            <p>Image</p>
+            <p>Image</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        Footer
+      </div>
+    </div>
         
     </body>
 </html>

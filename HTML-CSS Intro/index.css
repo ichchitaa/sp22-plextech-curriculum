@@ -46,3 +46,126 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
+
+.redExample3 {
+  display: flex;
+  flex: 1100px;
+  background-color: red;
+}
+
+.redExample4 {
+  display: flex;
+  flex: 1;
+  background-color: red;
+}
+
+.wrapper2 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  align-items: center;
+  align-content: center;
+}
+
+.redExample5 {
+  display: flex;
+  background-color: red;
+  width: 40px;
+  height: 70%;
+  align-items: center;
+  align-content: center;
+  transform: translateX(660px);
+}
+
+.blueExample3 {
+  width: 80px;
+  background-color: blue; 
+  align-items: center;
+  align-content: center;
+}
+
+.yellow1 {
+  width: 80px;
+  background-color: orange;
+}
+
+.yellow2 {
+  width: 80px;
+  background-color: orange;
+  transform: translateX(240px);
+}
+
+.yellow3 {
+  width: 80px;
+  background-color: orange;
+  transform: translateX(480px);
+}
+
+.yellow4 {
+  width: 80px;
+  background-color: orange;
+  transform: translateX(720px);
+}
+
+.yellow5 {
+  width: 80px;
+  background-color: orange;
+  transform: translateX(960px);
+}
+
+.bluee {
+  flex: 1;
+}
+
+.blue7 {
+  background-color: blue;
+  height: 20px;
+  width: 1300px;
+}
+
+.transparent {
+  background-color: transparent;
+  height: 20px;
+  width: 1300px;
+}
+
+.blue8 {
+  width: 1300px;
+  background-color: blue;
+  height: 20px;
+}
+
+.orange1 {
+  width: 255px;
+  background-color: orange;
+}
+
+.orange2 {
+  width: 255px;
+  background-color: orange;
+  transform: translateX(20px);
+}
+
+.orange3 {
+  width: 255px;
+  background-color: orange;
+  transform: translateX(40px);
+}
+
+.orange4 {
+  width: 255px;
+  background-color: orange;
+  transform: translateX(60px);
+}
+
+.orange5 {
+  width: 260px;
+  background-color: orange;
+  transform: translateX(80px);
+}
+
